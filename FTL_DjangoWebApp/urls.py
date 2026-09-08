@@ -9,4 +9,15 @@ urlpatterns = [
         include('registration.urls')
     ),
 
+    path(
+    'api/',
+    include('registration.api_urls')
+    ),
+    path(
+        'accounts/',
+        include('django.contrib.auth.urls')
+    ),
+
+
+
 ]
