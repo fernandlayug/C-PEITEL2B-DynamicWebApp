@@ -11,6 +11,10 @@
         Register Student
     </a>
 
+     <a href="{% url 'student_dashboard' %}">
+                    Student Dashboard
+    </a>
+
     <table border="1">
         <tr>
             <th>ID</th>
@@ -37,6 +41,9 @@
                 <a href="{% url 'student_delete' student.id %}">
                     Delete
                 </a>
+
+               
+
             </td>
         </tr>
 

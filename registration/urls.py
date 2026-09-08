@@ -25,4 +25,10 @@ urlpatterns = [
         views.student_delete,
         name='student_delete'
     ),
+    path(
+        'dashboard/',
+        views.student_dashboard,
+        name='student_dashboard'
+    ),
+
 ]
