@@ -3,7 +3,7 @@ from . import views
 
 urlpatterns = [
     path(
-        "studentform/",
+        "fernand/",
         views.student_form,
         name="dynamic_form",
     ),
